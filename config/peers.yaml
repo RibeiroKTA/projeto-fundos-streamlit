@@ -1,0 +1,38 @@
+# Peer universe configuration
+# CNPJs verified against CVM registro_fundo_classe + inf_diario (April 2026)
+# All funds: active, multimercado, macro strategy, with daily quota data in CVM
+
+funds:
+  - cnpj: "22.187.946/0001-41"
+    name: "Verde FIC FIM"
+    group: "multimercado"
+    highlight: false
+
+  - cnpj: "22.345.384/0001-17"
+    name: "SPX Nimitz Estruturado FIC FIM"
+    group: "multimercado"
+    highlight: false
+
+  - cnpj: "26.978.187/0001-96"
+    name: "Kapitalo Kappa A FIC FIM"
+    group: "multimercado"
+    highlight: false
+
+  - cnpj: "32.320.730/0001-66"
+    name: "Legacy Capital Edge FIC FIM"
+    group: "multimercado"
+    highlight: false
+
+  - cnpj: "15.799.713/0001-34"
+    name: "Ibiuna Hedge STH FIC FIM"
+    group: "multimercado"
+    highlight: false
+
+  - cnpj: "09.480.816/0001-34"
+    name: "Bahia AM Ciclotron FIM"
+    group: "multimercado"
+    highlight: false
+
+# To highlight a fund, set highlight: true above
+# To find CNPJs: download registro_fundo_classe.zip from
+# https://dados.cvm.gov.br/dados/FI/CAD/DADOS/
